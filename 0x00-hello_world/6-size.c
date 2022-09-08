@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- *  *main - Prints the sizeof char,int,long int,long long int and float
+ * main - Prints the sizeof char,int,long int,long long int and float
  *
- *   *Return: 0 if Success
- *    */
+ * Return: 0 if Success
+ */
 int main(void)
 {
+
 	char a;
 	int b;
 	long int c;
