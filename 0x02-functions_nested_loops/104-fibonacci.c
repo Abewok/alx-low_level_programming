@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-long long int pf, af, f;
+ long int pf, af, f;
 
 	pf = 1;
 	af = 2;
@@ -17,9 +17,9 @@ long long int pf, af, f;
 	for (i = 0; i < 96; i++)
 	{
 		f = pf + af;
-		pf = af;
-		af = f;
-		printf("%lld", f);
+		pf =abs(af);
+		af = abs(f);
+		printf("%d", f);
 		if (i != 95)
 		{
 			printf(", ");
