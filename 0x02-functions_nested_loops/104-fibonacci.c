@@ -17,8 +17,11 @@ int main(void)
 	for (i = 0; i < 96; i++)
 	{
 		f = pf + af;
-		pf =abs(af);
-		af = abs(f);
+		if (f < 0)
+		{ f=f*-1;
+		}
+		pf =af;
+		af = f;
 		printf("%d", f);
 		if (i != 95)
 		{
