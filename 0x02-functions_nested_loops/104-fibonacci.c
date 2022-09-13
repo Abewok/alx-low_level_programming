@@ -22,7 +22,7 @@ int main(void)
 		{
 			printf("%ld", f);
 		}
-		else if ((f > 10000000) && (f < 100000000000000))
+/*		else if ((f > 10000000) && (f < 100000000000000))
 		{
 			f2 = f / 10000000;
 			f3 = f % 10000000;
@@ -38,6 +38,7 @@ int main(void)
 			printf("%ld, ", f2);
 			printf("%ld, ", f3);
 		}
+*/
 		if (i != 95)
 		{
 			printf(", ");
