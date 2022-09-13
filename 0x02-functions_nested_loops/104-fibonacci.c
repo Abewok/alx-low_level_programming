@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
- * main - check the code.
- * 
- *  Return: Always 0.
+ *
+ * main - fibonachi.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
 	int i;
-	long int pf, af, f, f1, f2, f3;
+	long int pf, af, f;
 
 	pf = 1;
 	af = 2;
@@ -18,27 +19,7 @@ int main(void)
 		f = pf + af;
 		pf = af;
 		af = f;
-		if (f < 10000000)
-		{
-			printf("%ld", f);
-		}
-/*		else if ((f > 10000000) && (f < 100000000000000))
-		{
-			f2 = f / 10000000;
-			f3 = f % 10000000;
-			printf("%ld", f2);
-			printf("%ld", f3);
-		}
-		else
-		{
-			f1 = f / 100000000000000;
-			f2 = (f % 100000000000000) / 10000000;
-			f3 = f % 10000000;
-			printf("%ld", f1);
-			printf("%ld, ", f2);
-			printf("%ld, ", f3);
-		}
-*/
+		printf("%ld", f);
 		if (i != 95)
 		{
 			printf(", ");
