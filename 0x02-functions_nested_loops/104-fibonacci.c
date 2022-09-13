@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
- unsigned long int pf, af, f;
+ unsigned long long int pf, af, f;
 
 	pf = 1;
 	af = 2;
@@ -19,7 +19,7 @@ int main(void)
 		f = pf + af;
 		pf =af;
 		af = f;
-		printf("%lu", f);
+		printf("%llu", f);
 		if (i != 95)
 		{
 			printf(", ");
