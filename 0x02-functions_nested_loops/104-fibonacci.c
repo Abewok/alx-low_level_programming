@@ -22,7 +22,7 @@ int main(void)
 		}
 		pf =af;
 		af = f;
-		printf("%d", f);
+		printf("%ld", f);
 		if (i != 95)
 		{
 			printf(", ");
