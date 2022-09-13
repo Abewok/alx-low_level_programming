@@ -19,7 +19,7 @@ int main(void)
 		f = pf + af;
 		pf =af;
 		af = f;
-		printf("%llu", f);
+		printf("%lu", f);
 		if (i != 95)
 		{
 			printf(", ");
