@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for fibonachi 48.
  *
  * Return: Always 0.
  */
