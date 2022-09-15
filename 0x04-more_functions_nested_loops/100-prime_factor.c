@@ -27,4 +27,3 @@ int main(void)
 	printf("%ld\n", bf);
 	return (0);
 }
-
