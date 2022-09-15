@@ -12,7 +12,7 @@ int main(void)
 	long int bf, n;
 
 	i = 2;
-	n = 1231952;
+	n = 612852475143;
 	bf = 0;
 
 	for (i = 3; i <= n; i += 2)
