@@ -4,7 +4,6 @@
  *@s: string to use.
  *Return: string.
  */
-
 char *cap_string(char *s)
 {
 	int i = 1, j, check;
