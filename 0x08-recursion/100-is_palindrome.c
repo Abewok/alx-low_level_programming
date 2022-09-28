@@ -23,7 +23,7 @@ int _strlen(char *s, int i)
  * *@st: number of the first char of s.
  * *@e: number of the last char of s.
  * *Return: int.
- * */
+ */
 
 int isPal(char *s, int st, int e)
 {
