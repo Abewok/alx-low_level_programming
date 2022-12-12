@@ -1,22 +1,16 @@
+#include <unistd.h>
 #include "main.h"
+
 /**
-* _isalpha - returns 1 or 0
-* depending on if the character is capitalized or not.
-* @c: the character that is looked at.
-* Return: Returns 1 if capital, 0 if not.
-*/
+ * _isalpha - checks whether the passed character is an alphabet (A-Z or a-z)
+ * @c: The character to check
+ *
+ * Return: 1 if c is an alphabet, otherwise Return: 0
+ */
 int _isalpha(int c)
 {
-	if ('A' <= c && c <= 'Z')
-	{
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 		return (1);
-	}
-	if ('a' <= c && c <= 'z')
-	{
-		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
