@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -fPIC -shared -o libruin.so
-export LD_PRELOAD=$PWD/libruin.so
+wget -P /tmp nrandom.so
+export LD_PRELOAD=/tmp/nrandom.so
